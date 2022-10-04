@@ -1,0 +1,83 @@
+#PCSWMM project file
+#Please do not edit
+[General]
+PCSWMM.NET Version=7.4.3240
+SWMM5 Version=5.1.015
+Version=3
+Package Path=D:\swmm-ga-main\PCSWMM\1D_model_단독주택있는버전.pcz
+Last Report Date=12/12/2021 12:54:34 AM
+[2D]
+2DModeling=False
+[Project Summary]
+Compute Time=4 seconds
+Routing Error=-0.081
+Runoff Error=-0.934
+Run Incomplete=False
+[Authors]
+Author0=Kyuwon Seo,44542.0378430556
+[Layers]
+layer0=Subcatchments
+layer1=Outlets
+layer2=Weirs
+layer3=Orifices
+layer4=Pumps
+layer5=Conduits
+layer6=Storages
+layer7=Dividers
+layer8=Outfalls
+layer9=Junctions
+[Graph]
+Plotting Position=Gringorten
+[Erosion]
+ErosionOn=False
+Use C TS=False
+Calculate LS=False
+Use TSS=False
+[Scripts]
+Script0=rules
+Script1=ga2d
+Script2=main
+Script3=dataloader
+Script4=swmm
+[Scenarios]
+"Scenarios0"="D:\swmm-ga-main\PCSWMM\1D_model_단독주택있는버전.inp",False,False,1D_model_단독주택있는버전
+"Scenarios1"="D:\규원\2021_논문\서승범 교수님\00_SWMM\1D_model_OG.inp",False,False,1D_model_OG
+"Scenarios2"="D:\규원\2021_논문\서승범 교수님\00_SWMM\1D model_0921.inp",False,False,1D model_0921
+"Scenarios3"="D:\규원\2021_졸업연구\0916_수정\SWMM\1D model_0916수정.inp",False,False,1D model_0916수정
+"Scenarios4"="D:\1D model_GA\1D model.inp",False,False,1D model
+"Scenarios5"="D:\1D model_GA\1D model_new.inp",False,False,1D model_new
+"Scenarios6"="D:\1D_to_2Dmodel\1D model_new.inp",False,False,1D model_new
+"Scenarios7"="D:\1D_to_2Dmodel\1D_to_2D.inp",False,False,1D_to_2D
+"Scenarios8"="D:\1D model_GA\1D model_new_GAtest.inp",False,False,1D model_new_GAtest
+"Scenarios9"="D:\1D_to_2Dmodel\1Dto_2Dmodel.inp",False,False,1Dto_2Dmodel
+"Scenarios10"="D:\1D model_to Subcatchment\1D_model_to Sub.inp",False,False,1D_model_to Sub
+"Scenarios11"="D:\1D model_to Subcatchment\1D_model_to Sub_GAtest.inp",False,False,1D_model_to Sub_GAtest
+"Scenarios12"="D:\1D model_to Subcatchment\1D_model_to Sub_GAtest0503.inp",False,False,1D_model_to Sub_GAtest0503
+"Scenarios13"="D:\1D model_to Subcatchment\2D_model_to Sub.inp",False,False,2D_model_to Sub
+"Scenarios14"="D:\1D model_to Subcatchment\1D_Algorithm.inp",False,False,1D_Algorithm
+"Scenarios15"="D:\1D model_to Subcatchment\1D_model_GA2.inp",False,False,1D_model_GA2
+"Scenarios16"="D:\1D model_to Subcatchment\1D_model_GA3.inp",False,False,1D_model_GA3
+"Scenarios17"="D:\1D model_to Subcatchment\1D_model_GA4.inp",False,False,1D_model_GA4
+"Scenarios18"="D:\1D model_to Subcatchment\1D_model_GA5.inp",False,False,1D_model_GA5
+"Scenarios19"="D:\1D model_to Subcatchment\1D_model_GA6.inp",False,False,1D_model_GA6
+"Scenarios20"="D:\1D model_to Subcatchment\1D_model_GA7.inp",False,False,1D_model_GA7
+"Scenarios21"="D:\1D model_to Subcatchment\1D_model_GA8.inp",False,False,1D_model_GA8
+"Scenarios22"="D:\1D model_to Subcatchment\2D_model_GA6.inp",False,False,2D_model_GA6
+"Scenarios23"="D:\1D model_to Subcatchment\2D_model_GA5.inp",False,False,2D_model_GA5
+"Scenarios24"="D:\1D model_to Subcatchment\2D_model_GA8.inp",False,False,2D_model_GA8
+"Scenarios25"="D:\1D model_to Subcatchment\1D_model_GA10.inp",False,False,1D_model_GA10
+"Scenarios26"="D:\1D model_to Subcatchment\2D_model_GA10.inp",False,False,2D_model_GA10
+"Scenarios27"="D:\1D model_to Subcatchment\1D_model_GA1.inp",False,False,1D_model_GA1
+"Scenarios28"="D:\1D model_to Subcatchment\2D_model_GA1.inp",False,False,2D_model_GA1
+"Scenarios29"="D:\1D model_to Subcatchment\1D_model_GA1''.inp",False,False,1D_model_GA1''
+"Scenarios30"="D:\1D model_to Subcatchment\2D_model_GA1''.inp",False,False,2D_model_GA1''
+"Scenarios31"="D:\1D model_to Subcatchment\1D_model_GA2''.inp",False,False,1D_model_GA2''
+"Scenarios32"="D:\1D model_to Subcatchment\2D_model_GA3''.inp",False,False,2D_model_GA3''
+"Scenarios33"="D:\1D model_to Subcatchment\1D_model_GA3''.inp",False,False,1D_model_GA3''
+"Scenarios34"="D:\규원\2021_졸업연구\졸업연구 자료\PCSWMM\1D model_OG.inp",False,False,1D model_OG
+"Scenarios35"="D:\규원\2021_졸업연구\졸업연구 자료\PCSWMM\2D model_OG.inp",False,False,2D model_OG
+"Scenarios36"="D:\1D model_to Subcatchment\1D_model_OG.inp",False,False,1D_model_OG
+"Scenarios37"="D:\규원\2021_졸업연구\0916_수정\1D model_0916수정.inp",False,False,1D model_0916수정
+"Scenarios38"="D:\규원\2021_졸업연구\졸업연구 자료\PCSWMM\1D model_0921.inp",False,False,1D model_0921
+"Scenarios39"="D:\규원\2021_졸업연구\0921_수정\1D model_0921.inp",False,False,1D model_0921
+"Scenarios40"="D:\규원\2021_논문\서승범 교수님\00_SWMM\1D_model_단독주택있는버전.inp",False,False,1D_model_단독주택있는버전

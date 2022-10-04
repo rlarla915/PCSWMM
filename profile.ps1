@@ -1,0 +1,1 @@
+python -m cProfile -s tottime src/main.py > profile.log
